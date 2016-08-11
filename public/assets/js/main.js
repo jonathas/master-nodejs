@@ -11643,6 +11643,7 @@ window.onload = function() {
     ];
 
     //_.each(messages, alertstars);
+    // Underscore is good for cross-browser compatibility
     _.each(messages, function(message) {
         $("body").append("Test: " + message);
     });
