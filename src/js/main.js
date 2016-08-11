@@ -1,5 +1,6 @@
 var alertstars = require('./lib/alertstars');
 var _ = require('underscore');
+var $ = require('jquery');
 
 window.onload = function() {
     var messages = [
@@ -9,5 +10,8 @@ window.onload = function() {
         "I guess you couldn't answer, huh?"
     ];
 
-    _.each(messages, alertstars);
+    //_.each(messages, alertstars);
+    _.each(messages, function(message) {
+        $("body").append(message);
+    });
 };
