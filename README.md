@@ -1,6 +1,6 @@
 # README #
 
-Code from the Udemy's course "Master NodeJS: The Complete Front-End Developer Course"
+Code from Udemy's course "Master NodeJS: The Complete Front-End Developer Course"
 
 ### Contents:
 
