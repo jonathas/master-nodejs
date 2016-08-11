@@ -12,6 +12,6 @@ window.onload = function() {
 
     //_.each(messages, alertstars);
     _.each(messages, function(message) {
-        $("body").append(message);
+        $("body").append("Test: " + message);
     });
 };

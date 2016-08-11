@@ -11626,7 +11626,7 @@ return jQuery;
 
 },{}],3:[function(require,module,exports){
 module.exports = function alertstars(message) {
-    alert("***** " + message + " *****");
+    alert("***** === " + message + " === *****");
 };
 
 },{}],4:[function(require,module,exports){
@@ -11644,7 +11644,7 @@ window.onload = function() {
 
     //_.each(messages, alertstars);
     _.each(messages, function(message) {
-        $("body").append(message);
+        $("body").append("Test: " + message);
     });
 };
 

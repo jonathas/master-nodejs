@@ -17,5 +17,11 @@
     "lodash": "^4.14.2",
     "request": "^2.74.0",
     "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "browserify": "^13.1.0",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2",
+    "vinyl-source-stream": "^1.1.0"
   }
 }
