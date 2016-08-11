@@ -4,7 +4,7 @@
   "description": "Example app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node_modules/mocha/bin/mocha"
   },
   "author": "jonribeiro",
   "license": "ISC",
@@ -20,12 +20,14 @@
   },
   "devDependencies": {
     "browserify": "^13.1.0",
+    "chai": "^3.5.0",
     "gulp": "^3.9.1",
     "gulp-csslint": "^0.3.1",
     "gulp-jshint": "^2.0.1",
     "gulp-sass": "^2.3.2",
     "jshint": "^2.8.0",
     "jshint-stylish": "^2.2.0",
+    "mocha": "^3.0.2",
     "vinyl-source-stream": "^1.1.0"
   }
 }
