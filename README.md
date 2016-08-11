@@ -5,12 +5,14 @@ Code from the Udemy's course "Master NodeJS: The Complete Front-End Developer Co
 ### Contents:
 
 01) Introduction
+
     - Introduction
     - Installing the NodeJS
     - Intro to the Command Line
 
 
 02) Concepts
+
     - Client and Server JavaScript
     - NPM
     - Intro to Module
@@ -19,10 +21,12 @@ Code from the Udemy's course "Master NodeJS: The Complete Front-End Developer Co
 
 
 03) New Project
+
     - Create a Front-End Project
 
 
 04) NodeJS Workflow Tools
+
     - Browserify Your Modules
     - Manipulate Your Build Process With Gulp
     - Line all the Things
@@ -32,4 +36,5 @@ Code from the Udemy's course "Master NodeJS: The Complete Front-End Developer Co
 
 
 05) Conclusion
+
     - Conclusion
